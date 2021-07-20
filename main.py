@@ -6,6 +6,8 @@ from tkinter import messagebox
 
 root= tk.Tk()
 
+root.title ("Image to PDF Converter ")
+
 canvas1 = tk.Canvas(root, width = 300, height = 300, bg = 'lightsteelblue2', relief = 'raised')
 canvas1.pack()
 
